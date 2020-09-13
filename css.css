@@ -1,0 +1,47 @@
+.nav-item{
+    margin-left: 20px;
+}
+.nav-item:hover{
+    background: #a1c9f0;
+}
+.ca-left-img{
+    height: 700px;
+    width: 100%;
+}
+.left{
+    height: 700px;
+    width: 100%;
+    padding-top: 20px;
+}
+#search-div{
+    display: grid;
+    grid-template-areas: 'input button';
+}
+#search-form{grid-area: input}
+#search-button{grid-area: button}
+.product-div{
+    height: 250px;
+    width: 200px;
+    background: #aadaf4;
+    border-radius: 5px;
+    border: 1px black solid;
+}
+#product-ul li{
+    list-style: none;
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.product-div img{
+    border-radius: 5px 0 0 0;
+    border-bottom: 1px #7b8082 solid;
+    height: 200px;
+    width: 198px;
+}
+.pagination{
+    clear: left;
+    float: right;
+}
+.pagination li{
+    margin-top: 20px;
+}
